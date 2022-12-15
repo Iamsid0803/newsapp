@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 33,
+    "articles": [
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Wayne Sterling, Matt Phillips",
+            "title": "University of Texas men's basketball head coach arrested and charged with felony assault - CNN",
+            "description": "Chris Beard was arrested and charged with a third-degree felony assault in Texas on Monday.",
+            "url": "https://www.cnn.com/2022/12/12/us/university-of-texas-chris-beard-arrest/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/221212212936-01-chris-beard-112622.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2022-12-13T09:44:00Z",
+            "content": "University of Texas at Austin mens basketball head coach Chris Beard was arrested and charged with a third-degree felony assault on Monday. \r\nOfficers responded to a disturbance on the 1900 block of … [+1314 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Train strikes: Widespread delays as latest walkouts begin - BBC",
+            "description": "About 40,000 rail workers are walking out in a series of strikes starting on Tuesday in a row about jobs and pay.",
+            "url": "https://www.bbc.com/news/business-63951354",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/4CC0/production/_127984691_gettyimages-1245382008.jpg",
+            "publishedAt": "2022-12-13T08:48:52Z",
+            "content": "Train passengers are braced for major disruption this week, as a series of strikes is set to bring the UK's rail network to a standstill. \r\nAbout 40,000 rail workers are walking out on Tuesday, Wedne… [+5698 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Vedika Sud, Simone McCarthy",
+            "title": "Indian and Chinese troops clash on disputed border - CNN",
+            "description": "Indian and Chinese troops have clashed on their disputed Himalayan border, the first known incident between the two nuclear-armed Asian powers in nearly two years.",
+            "url": "https://www.cnn.com/2022/12/13/asia/india-china-border-dispute-skirmish-tawang-sector-intl-hnk/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/221213120102-line-of-actual-control-area.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2022-12-13T07:53:00Z",
+            "content": "Indian and Chinese troops have clashed on their disputed Himalayan border, the first known incident between the two nuclear-armed Asian powers in nearly two years.\r\nIn a statement, Indias Ministry of… [+4405 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": null,
+            "title": "China students return home amid COVID travel spread fears - The Associated Press",
+            "description": "BEIJING (AP) — Some Chinese universities say they will allow students to finish the semester from home in hopes of reducing the potential of a bigger COVID-19 outbreak during the January Lunar New Year travel rush.",
+            "url": "https://apnews.com/62ba569fcee449491442cef1f8f93c00",
+            "urlToImage": "https://storage.googleapis.com/afs-prod/media/16e87b995c4e4af68d68a2fc5d35298d/3000.webp",
+            "publishedAt": "2022-12-13T06:22:30Z",
+            "content": "BEIJING (AP) Some Chinese universities say they will allow students to finish the semester from home in hopes of reducing the potential of a bigger COVID-19 outbreak during the January Lunar New Year… [+5137 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Options traders brace for big swings as U.S. CPI data, Fed meeting loom - Reuters",
+            "description": "Options traders are bracing for a week of swings in U.S. stocks ahead of key inflation data, the Federal Reserve's last policy meeting of 2022 and the final monthly options expiration of the year.",
+            "url": "https://www.reuters.com/markets/us/options-traders-brace-big-swings-us-cpi-data-fed-meeting-loom-2022-12-12/",
+            "urlToImage": "https://www.reuters.com/resizer/zWsDMzfpDVW6b2BJqhv6Tf66hjc=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/56QHWH6S3RMSVKCZKKWVRSAOCM.jpg",
+            "publishedAt": "2022-12-13T05:59:00Z",
+            "content": "NEW YORK, Dec 12 (Reuters) - Options traders are bracing for a week of swings in U.S. stocks ahead of key inflation data, the Federal Reserve's last policy meeting of 2022 and the final monthly optio… [+2859 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Supporters of Brazil's defeated Bolsonaro attack police headquarters - Reuters",
+            "description": "Supporters of far-right Brazilian President Jair Bolsonaro on Monday attempted to invade the federal police headquarters in the capital Brasilia, in a flash of post-election violence on the day the president's electoral defeat was certified.",
+            "url": "https://www.reuters.com/world/americas/supporters-brazils-bolsonaro-try-invade-federal-police-headquarters-2022-12-13/",
+            "urlToImage": "https://www.reuters.com/resizer/YPbF9H2eHTU1dpFLWUXtBSCwQjI=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2BTJXASTMFNODNROI3TK6DOGIY.jpg",
+            "publishedAt": "2022-12-13T05:43:00Z",
+            "content": "BRASILIA, Dec 12 (Reuters) - Supporters of far-right Brazilian President Jair Bolsonaro on Monday attempted to invade the federal police headquarters in the capital Brasilia, in a flash of post-elect… [+4260 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Athletic"
+            },
+            "author": "Ken Rosenthal",
+            "title": "Rosenthal: Inside the trade of Sean Murphy to Braves and the catalyst for the three-team deal - The Athletic",
+            "description": "Two separate occurrences helped the deal come together, according to sources familiar with the discussions.",
+            "url": "https://theathletic.com/3996795/2022/12/13/inside-trade-murphy-contreras-ruiz/",
+            "urlToImage": "https://cdn.theathletic.com/app/uploads/2022/12/12234651/GettyImages-1421462417-1024x683.jpg",
+            "publishedAt": "2022-12-13T05:31:53Z",
+            "content": "The Oakland As wanted two major-league-ready position players for catcher Sean Murphy. The Braves werent about to trade Vaughn Grissom, whom they are grooming to potentially replace free agent Dansby… [+6367 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "MacKenzie Sigalos, Rohan Goswami",
+            "title": "FTX spent $256 million on Bahamas real estate — now the island's government wants it back - CNBC",
+            "description": "Bahamas regulators appeal to U.S. bankruptcy judge to try to claim ownership over FTX-owned properties in New Providence, Bahamas.",
+            "url": "https://www.cnbc.com/2022/12/12/ftx-sam-bankman-fried-snapped-up-256-million-in-bahamas-real-estate.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/106845320-1614210756268-gettyimages-542706099-8b6933a4-90e8-40ba-be5b-40a84bd34bd7.jpeg?v=1670909308&w=1920&h=1080",
+            "publishedAt": "2022-12-13T05:28:28Z",
+            "content": "Bahhamian lawyers say FTX executives Sam Bankman-Fried and Ryan Salame spent $256.3 million spent to buy and maintain 35 different properties across New Providence, Bahamas.\r\nNow, Bahamas regulators … [+2784 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Altercation between Councilmember Kevin de León and activist Jason Reedy spark safety concerns - CBS Los Angeles",
+            "description": "The chaotic altercation between the embattled Los Angeles City Councilman Kevin de León and activist Jason Reedy has sparked questions about safety for other...",
+            "url": "https://www.youtube.com/watch?v=Z3ryOp9HQF0",
+            "urlToImage": "https://i.ytimg.com/vi/Z3ryOp9HQF0/maxresdefault.jpg",
+            "publishedAt": "2022-12-13T05:19:50Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CBS Sports"
+            },
+            "author": "",
+            "title": "Cardinals' Kyler Murray carted off vs. Patriots with knee injury; reportedly feared to have torn ACL - CBS Sports",
+            "description": "The quarterback went down awkwardly on a scramble on the third play of the game",
+            "url": "https://www.cbssports.com/nfl/news/cardinals-kyler-murray-carted-off-vs-patriots-with-knee-injury-reportedly-feared-to-have-torn-acl/",
+            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2022/12/13/5bae5aeb-5145-4a4a-bff5-f2309ad10648/thumbnail/1200x675/3c6ca4e0ae7233a4abab4324178fe7ea/kyler-murray.jpg",
+            "publishedAt": "2022-12-13T05:10:00Z",
+            "content": "The Cardinals hoped to prove themselves offensively Monday night against the Patriots, who boast one of the NFL's stingiest defenses under Bill Belichick. Just three plays into the prime-time matchup… [+2043 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Rolling Stone"
+            },
+            "author": "Larisha Paul",
+            "title": "Dave Chappelle Fans Reveal Why Elon Musk Was Booed: ‘The Chase Center Turned Into the Apollo’ - Rolling Stone",
+            "description": "Twitter owner and megabillionaire Elon Musk received a not-so-warm reception after being trotted out onstage during pal Chappelle’s stand-up set at the Chase Center in San Francisco.",
+            "url": "https://www.rollingstone.com/culture/culture-news/dave-chappelle-booing-elon-musk-fans-react-twitter-1234646236/",
+            "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2022/12/elon-musk-dave-chappelle.jpeg?w=1600&h=900&crop=1",
+            "publishedAt": "2022-12-13T04:56:03Z",
+            "content": "Reading the room is not one of Dave Chappelle’s sharpest skills. On Sunday, the comedian surprised the audience at the San Francisco stop on his joint tour with Chris Rock by bringing out Elon Musk a… [+3003 chars]"
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Cat Zakrzewski, Joseph Menn, Naomi Nix",
+            "title": "Twitter dissolves Trust and Safety Council, Yoel Roth flees home - The Washington Post",
+            "description": "Yoel Roth, Twitter’s former head of trust and safety, left his home after criticism from Musk unleashed a torrent of online harassment.",
+            "url": "https://www.washingtonpost.com/technology/2022/12/12/musk-twitter-harass-yoel-roth/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RAHQVEZWN56I63NRRKYFF2VXSQ.jpg&w=1440",
+            "publishedAt": "2022-12-13T03:36:00Z",
+            "content": "Comment on this story\r\nTwitter on Monday night abruptly dissolved its Trust and Safety Council, the latest sign that Elon Musk is unraveling years of work and institutions created to make the social … [+9923 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Ryan Gaydos",
+            "title": "Tom Brady's Patriots return theory floated on 'ManningCast': 'Could he come back for one last season?' - Fox News",
+            "description": "Tom Brady's potential return to the New England Patriots has been talked about over the last couple of weeks of the 2022 NFL season.",
+            "url": "https://www.foxnews.com/sports/tom-bradys-patriots-return-theory-floated-manningcast-could-he-come-back-last-season",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2022/12/Tom-Brady-super-bowl.jpg",
+            "publishedAt": "2022-12-13T02:50:24Z",
+            "content": "Bill Simmons, a renowned columnist and Boston sports fan, floated the theory that Tom Brady could potentially return to the New England Patriots in 2023 for one last hurrah.\r\nBrady is in the final ye… [+2347 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "LA Mayor Karen Bass declares state of emergency on homelessness - FOX 11 Los Angeles",
+            "description": "Los Angeles Mayor Karen Bass, newly-sworn into office, followed up on her word to issue a state of emergency on the city's homeless crisis.Subscribe to FOX 1...",
+            "url": "https://www.youtube.com/watch?v=A_SIT6YGDXo",
+            "urlToImage": "https://i.ytimg.com/vi/A_SIT6YGDXo/hqdefault.jpg",
+            "publishedAt": "2022-12-13T02:40:05Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": "Stefania Palma, Scott Chipolina",
+            "title": "Sam Bankman-Fried arrested in Bahamas ahead of US criminal charges - Financial Times",
+            "description": "News, analysis and comment from the Financial Times, the worldʼs leading global business publication",
+            "url": "https://www.ft.com/content/2068b928-cc17-485c-890c-3b5c2c00093c",
+            "urlToImage": null,
+            "publishedAt": "2022-12-13T01:28:49Z",
+            "content": "What is included in my trial?\r\nDuring your trial you will have complete digital access to FT.com with everything in both of our Standard Digital and Premium Digital packages.\r\nStandard Digital includ… [+1496 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": null,
+            "title": "Keystone pipeline has now leaked more oil in the US than any other since 2010: report - The Hill",
+            "description": null,
+            "url": "https://news.google.com/__i/rss/rd/articles/CBMiiwFodHRwczovL3RoZWhpbGwuY29tL3BvbGljeS9lbmVyZ3ktZW52aXJvbm1lbnQvMzc3MjYyOC1rZXlzdG9uZS1waXBlbGluZS1oYXMtbm93LWxlYWtlZC1tb3JlLW9pbC1pbi10aGUtdXMtdGhhbi1hbnktb3RoZXItc2luY2UtMjAxMC1yZXBvcnQv0gGPAWh0dHBzOi8vdGhlaGlsbC5jb20vcG9saWN5L2VuZXJneS1lbnZpcm9ubWVudC8zNzcyNjI4LWtleXN0b25lLXBpcGVsaW5lLWhhcy1ub3ctbGVha2VkLW1vcmUtb2lsLWluLXRoZS11cy10aGFuLWFueS1vdGhlci1zaW5jZS0yMDEwLXJlcG9ydC9hbXAv?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2022-12-13T01:08:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Shannon Osaka",
+            "title": "What you need to know about the U.S. fusion energy breakthrough - The Washington Post",
+            "description": "Fission? Fusion? Net energy gain? Lasers? All the questions you have about the fusion breakthrough, answered.",
+            "url": "https://www.washingtonpost.com/climate-solutions/2022/12/12/nuclear-fusion-breakthrough-benefits/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FHY2HDFAL5WWXLXKL7Z3YCX3QE.jpg&w=1440",
+            "publishedAt": "2022-12-13T00:14:00Z",
+            "content": "Comment on this story\r\nOn Tuesday, the Department of Energy is expected to announce a long-awaited milestone in the development of nuclear fusion energy: net energy gain. The news, first reported by … [+5059 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Guardian"
+            },
+            "author": "Linda Geddes",
+            "title": "Genome sequencing trial to test benefits of identifying genetic diseases at birth - The Guardian",
+            "description": "Study with 100,000 babies to look at faster diagnosis of rare conditions and how genetic data might be used",
+            "url": "https://www.theguardian.com/science/2022/dec/13/genome-sequencing-trial-to-test-benefits-of-identifying-genetic-diseases-at-birth",
+            "urlToImage": "https://i.guim.co.uk/img/media/3fc6c61c383cbdcfc2d323688ecfd6d9bafd5c55/0_0_4368_2621/master/4368.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e0b02d510e15f539ebf045a4173058d9",
+            "publishedAt": "2022-12-13T00:01:00Z",
+            "content": "Genomics England is to test whether sequencing babies genomes at birth could help speed up the diagnosis of about 200 rare genetic diseases, and ensure faster access to treatment.\r\nThe study, which w… [+5315 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Andy Rose, Saskya Vandoorne, Allegra Goodwin",
+            "title": "French prosecutor investigating disappearance of New York college student studying in France - CNN",
+            "description": "A prosecutor in France has opened an investigation into the disappearance of an American college student who, his family says, has not been heard from in more than two weeks.",
+            "url": "https://www.cnn.com/2022/12/12/us/kenny-deland-missing-student-france/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/221212103416-kenny-deland-jr-selfie.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2022-12-12T23:44:00Z",
+            "content": "A prosecutor in France has opened an investigation into the disappearance of an American college student who, his family says, has not been heard from in more than two weeks.\r\nKenny DeLand Jr.s fello… [+4666 chars]"
+        },
+        {
+            "source": {
+                "id": "ars-technica",
+                "name": "Ars Technica"
+            },
+            "author": "Beth Mole",
+            "title": "Officials, experts call for masking as illnesses slam US ahead of holidays - Ars Technica",
+            "description": "Nearly 10% of US counties have \"high\" transmission levels and should be masking.",
+            "url": "https://arstechnica.com/science/2022/12/a-mask-comeback-officials-urge-precautions-amid-infection-surges-holidays/",
+            "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2022/12/GettyImages-1244586821-760x380.jpeg",
+            "publishedAt": "2022-12-12T23:24:59Z",
+            "content": "Enlarge/ Commuters in a subway in New York on October 25, 2022. \r\n56 with 0 posters participating\r\nHealth officials and experts are renewing calls for masking as respiratory illnesses surge and Ameri… [+4261 chars]"
+        }
+    ]
+}
