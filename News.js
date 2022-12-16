@@ -2,24 +2,20 @@
 import NewsItem from "./NewsItem";
 
 import React, { useEffect, useState } from "react";
+import Loading from "./Loading";
 
-export default function News() {
+export default function News(props) {
   // let articles = [];
   const [article, setArticle] = useState({
-    // article: articles,
     loading: false,
     article: [],
-    page: 1,
+    page: parseInt(1),
   });
   const handlePrevious = () => {
-    console.log("previous Clicked");
-  };
-  const handleNext = () => {
-    console.log("Next Clicked");
-  };
-  useEffect(() => {
-    const url =
-      "https://newsapi.org/v2/top-headlines?country=in&apiKey=091eefac3e214d6f9ba98c24f25ae2ac";
+    console.log("Page No  before previous= ", parseInt(article.page));
+    const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=091eefac3e214d6f9ba98c24f25ae2ac&page=${
+      parseInt(article.page) - 1
+    }&pageSize=${props.pageSize}`;
 
     const fetchData = async () => {
       try {
@@ -28,6 +24,57 @@ export default function News() {
         console.log(json);
         setArticle({
           article: json.articles,
+          page: parseInt(article.page) - 1,
+          totalResults: json.totalResults,
+        });
+      } catch (error) {
+        console.log("error", error);
+      }
+    };
+
+    fetchData();
+  };
+  const handleNext = () => {
+    if (
+      parseInt(article.page + 1) >
+      Math.ceil(article.totalResults / props.pageSize)
+    ) {
+    } else {
+      console.log("Next Clicked");
+      const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=091eefac3e214d6f9ba98c24f25ae2ac&page=${
+        parseInt(article.page) + 1
+      }&pageSize=${props.pageSize}`;
+      console.log("after next =", parseInt(article.page + 1));
+      const fetchData = async () => {
+        try {
+          const response = await fetch(url);
+          const json = await response.json();
+          console.log(json);
+          setArticle({
+            article: json.articles,
+            page: parseInt(article.page + 1),
+            totalResults: json.totalResults,
+          });
+        } catch (error) {
+          console.log("error", error);
+        }
+      };
+
+      fetchData();
+    }
+  };
+  useEffect(() => {
+    const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=091eefac3e214d6f9ba98c24f25ae2ac&page=1&pageSize=${props.pageSize}`;
+
+    const fetchData = async () => {
+      try {
+        const response = await fetch(url);
+        const json = await response.json();
+        console.log(json);
+        setArticle({
+          article: json.articles,
+          page: parseInt(article.page),
+          totalResults: json.totalResults,
         });
       } catch (error) {
         console.log("error", error);
@@ -38,10 +85,12 @@ export default function News() {
   }, []);
   return (
     <div className="container">
-      <h2>Top headlines For Today</h2>
+      {console.log("page = ", article.page)}
+      <h2 className="text-center">Top headlines For Today</h2>
+      <Loading />
       <div className="row">
         {article.article.map((element) => {
-          // console.log(element.title.slice(0, 15));
+          // return console.log(element);
           return (
             <div className="col-md-4" key={element.url}>
               <NewsItem
@@ -61,10 +110,19 @@ export default function News() {
           type="button"
           className="btn btn-warning"
           onClick={handlePrevious}
+          disabled={parseInt(article.page) <= 1}
         >
           ⬅️Previous
         </button>
-        <button type="button" className="btn btn-warning" onClick={handleNext}>
+        <button
+          type="button"
+          className="btn btn-warning"
+          onClick={handleNext}
+          disabled={
+            parseInt(article.page + 1) >
+            Math.ceil(article.totalResults / props.pageSize)
+          }
+        >
           Next➡️
         </button>
       </div>
