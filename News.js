@@ -7,25 +7,31 @@ import Loading from "./Loading";
 export default function News(props) {
   // let articles = [];
   const [article, setArticle] = useState({
-    loading: false,
+    loading: true,
     article: [],
     page: parseInt(1),
   });
   const handlePrevious = () => {
     console.log("Page No  before previous= ", parseInt(article.page));
-    const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=091eefac3e214d6f9ba98c24f25ae2ac&page=${
+    const url = `https://newsapi.org/v2/top-headlines?country=${
+      props.country
+    }&category=${props.category}&apiKey=091eefac3e214d6f9ba98c24f25ae2ac&page=${
       parseInt(article.page) - 1
     }&pageSize=${props.pageSize}`;
 
     const fetchData = async () => {
       try {
+        setArticle({ loading: true, article: [], page: parseInt(1) });
         const response = await fetch(url);
+
+        // setArticle({ loading: true });
         const json = await response.json();
         console.log(json);
         setArticle({
           article: json.articles,
           page: parseInt(article.page) - 1,
           totalResults: json.totalResults,
+          loading: false,
         });
       } catch (error) {
         console.log("error", error);
@@ -41,19 +47,27 @@ export default function News(props) {
     ) {
     } else {
       console.log("Next Clicked");
-      const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=091eefac3e214d6f9ba98c24f25ae2ac&page=${
+      const url = `https://newsapi.org/v2/top-headlines?country=${
+        props.country
+      }&category=${
+        props.category
+      }&apiKey=091eefac3e214d6f9ba98c24f25ae2ac&page=${
         parseInt(article.page) + 1
       }&pageSize=${props.pageSize}`;
       console.log("after next =", parseInt(article.page + 1));
       const fetchData = async () => {
         try {
+          setArticle({ loading: true, article: [], page: parseInt(1) });
           const response = await fetch(url);
+          // setArticle({ loading: true });
+
           const json = await response.json();
           console.log(json);
           setArticle({
             article: json.articles,
             page: parseInt(article.page + 1),
             totalResults: json.totalResults,
+            loading: false,
           });
         } catch (error) {
           console.log("error", error);
@@ -64,17 +78,20 @@ export default function News(props) {
     }
   };
   useEffect(() => {
-    const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=091eefac3e214d6f9ba98c24f25ae2ac&page=1&pageSize=${props.pageSize}`;
+    setArticle({ loading: true, article: [], page: parseInt(1) });
+    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=091eefac3e214d6f9ba98c24f25ae2ac&page=1&pageSize=${props.pageSize}`;
 
     const fetchData = async () => {
       try {
         const response = await fetch(url);
+
         const json = await response.json();
         console.log(json);
         setArticle({
           article: json.articles,
           page: parseInt(article.page),
           totalResults: json.totalResults,
+          loading: false,
         });
       } catch (error) {
         console.log("error", error);
@@ -87,7 +104,7 @@ export default function News(props) {
     <div className="container">
       {console.log("page = ", article.page)}
       <h2 className="text-center">Top headlines For Today</h2>
-      <Loading />
+      {article.loading && <Loading />}
       <div className="row">
         {article.article.map((element) => {
           // return console.log(element);

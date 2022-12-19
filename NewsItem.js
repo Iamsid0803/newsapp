@@ -6,7 +6,7 @@ export default function NewsItem(props) {
 
   return (
     <div className="container">
-      <div className="card my-3" style={{ width: "18rem" }}>
+      <div className="card my-3">
         <img
           src={
             !props.src
