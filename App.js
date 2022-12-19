@@ -25,7 +25,14 @@ export default function App() {
           <Route
             path="/"
             key="home"
-            element={<News pageSize="9" country="in" category="general" />}
+            element={
+              <News
+                pageSize="15"
+                country="in"
+                category="general"
+                apiKey="719e620e30504dfb88e75a0f049a8a48"
+              />
+            }
           />
           <Route
             path="/sports"
