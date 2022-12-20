@@ -27,8 +27,26 @@ export default function NewsItem(props) {
           <p className="card-text">{props.description}...</p>
           <p className="card-text">
             <small className="text-muted">
-              By <strong> {props.author ?? "Unknown"}</strong>,{" "}
-              {new Date(props.date).toGMTString() ?? "Unknown"}
+              <div className="row">
+                <div className="col-md">
+                  <span>
+                    <i class="fa-regular fa-calendar-days"></i>{" "}
+                  </span>
+                  <strong>
+                    {new Date(props.date).toGMTString() ?? "Unknown"}
+                  </strong>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md">
+                  <span>
+                    <i class="fa-solid fa-pen-nib"></i>{" "}
+                  </span>
+                  <strong>{props.author ?? "Unknown"}</strong>
+                </div>
+              </div>
+              {/* By <strong> {props.author ?? "Unknown"}</strong>,{" "}
+              {new Date(props.date).toGMTString() ?? "Unknown"} */}
             </small>
           </p>
           <a
@@ -36,6 +54,9 @@ export default function NewsItem(props) {
             target="_blank"
             className="btn btn-small btn-warning"
           >
+            <span>
+              <i class="fa-solid fa-book-open-reader"></i>{" "}
+            </span>
             Read More
           </a>
         </div>

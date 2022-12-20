@@ -6,11 +6,17 @@ export default class Navbar extends Component {
   render() {
     return (
       <>
-        <nav className="navbar navbar-expand-lg bg-warning">
+        <nav className=" sticky-top navbar navbar-expand-lg bg-warning">
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
-              NewsApp
+              <span>
+                <i class="fa-brands fa-neos"></i>
+                {/* <i class="fa-solid fa-n"></i> */}
+              </span>
+              {""}
+              ewsApp
             </Link>
+
             <button
               className="navbar-toggler"
               type="button"

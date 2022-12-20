@@ -30,14 +30,20 @@ export default function App() {
                 pageSize="15"
                 country="in"
                 category="general"
-                apiKey="719e620e30504dfb88e75a0f049a8a48"
+                apiKey="091eefac3e214d6f9ba98c24f25ae2ac"
               />
             }
           />
           <Route
             path="/sports"
             element={
-              <News key="sports" pageSize="9" country="in" category="sports" />
+              <News
+                key="sports"
+                pageSize="9"
+                country="in"
+                category="sports"
+                apiKey="091eefac3e214d6f9ba98c24f25ae2ac"
+              />
             }
           />
           <Route
@@ -48,6 +54,7 @@ export default function App() {
                 pageSize="9"
                 country="in"
                 category="business"
+                apiKey="091eefac3e214d6f9ba98c24f25ae2ac"
               />
             }
           />
@@ -59,6 +66,7 @@ export default function App() {
                 pageSize="9"
                 country="in"
                 category="science"
+                apiKey="091eefac3e214d6f9ba98c24f25ae2ac"
               />
             }
           />
@@ -70,6 +78,7 @@ export default function App() {
                 pageSize="9"
                 country="in"
                 category="general"
+                apiKey="091eefac3e214d6f9ba98c24f25ae2ac"
               />
             }
           />
@@ -81,13 +90,20 @@ export default function App() {
                 key="entertainment"
                 country="in"
                 category="entertainment"
+                apiKey="091eefac3e214d6f9ba98c24f25ae2ac"
               />
             }
           />
           <Route
             path="/health"
             element={
-              <News pageSize="9" key="health" country="in" category="health" />
+              <News
+                pageSize="9"
+                key="health"
+                country="in"
+                category="health"
+                apiKey="091eefac3e214d6f9ba98c24f25ae2ac"
+              />
             }
           />
           <Route
@@ -98,10 +114,12 @@ export default function App() {
                 key="technology"
                 country="in"
                 category="technology"
+                apiKey="091eefac3e214d6f9ba98c24f25ae2ac"
               />
             }
           />
         </Routes>
+        {console.log(process.env.REACT_APP_API_KEY)}
       </div>
     </BrowserRouter>
   );
