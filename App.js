@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
-
+//cb3a48cd30e746c59858b5e708dfcb5e
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 // export default class App extends Component {
 //   render() {
